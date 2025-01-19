@@ -21,11 +21,7 @@ export default tseslint.config(
       ...reactHooks.configs.recommended.rules,
       quotes: ["error", "double"],
       semi: ["error", "always"],
-      indent: ["error", 4],
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true },
-      ],
+      indent: ["error", 4]
     },
   },
 )
